@@ -34,7 +34,7 @@
     mazescene.TeleportTo({x: 0, y: 0.2, z: 0}, 0, true);
     mazescene.SetSettings(settings);
     console.log("SCRIPT finish setting settings for scene");
-    setTimeout(() => { dioramascene.SetSettings(settings); }, 2000);
+    setTimeout(() => { mazescene.SetSettings(settings); }, 2000);
   };
 
   async function landingPlatform() {
